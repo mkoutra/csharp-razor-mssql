@@ -1,6 +1,8 @@
 using Serilog;
 using Serilog.Events;
 using WebStarter6DBApp.Configuration;
+using WebStarter6DBApp.DAO;
+using WebStarter6DBApp.Services;
 
 namespace WebStarter6DBApp
 {
@@ -12,8 +14,13 @@ namespace WebStarter6DBApp
 
             // Add services to the container.
             builder.Services.AddRazorPages();
-            builder.Services.AddAutoMapper(typeof(MapperConfig));   // Add AutoMapper to IOC container. Now it can be injected.
-            
+
+            // Adds a new instance for every request (no singleton) to the IOC container
+            builder.Services.AddScoped<IStudentDAO, StudentDAOImpl>();
+            builder.Services.AddScoped<IStudentService, StudentServiceImpl>();
+
+            // Add AutoMapper to IOC container. Now it can be injected.
+            builder.Services.AddAutoMapper(typeof(MapperConfig));
             // Config Logger
             builder.Host.UseSerilog((context, config) =>
             {

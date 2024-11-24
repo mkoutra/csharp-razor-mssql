@@ -6,7 +6,7 @@ namespace WebStarter6DBApp.DAO
     {
         Student? Insert(Student student);
         void Update(Student student);
-        void Delete(Student student);
+        void Delete(int id);
         Student? GetById(int id);
         List<Student> GetAll();
     }

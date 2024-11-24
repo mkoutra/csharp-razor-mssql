@@ -69,7 +69,7 @@ namespace WebStarter6DBApp.DAO
             command.ExecuteNonQuery();  // Returns the number of rows affected
         }
 
-        public void Delete(Student student)
+        public void Delete(int id)
         {
             string sql = "DELETE FROM Students WHERE Id = @id";
             
@@ -77,7 +77,7 @@ namespace WebStarter6DBApp.DAO
             connection.Open();
 
             using SqlCommand command = new(sql, connection);
-            command.Parameters.AddWithValue("@id", student.Id);
+            command.Parameters.AddWithValue("@id", id);
 
             command.ExecuteNonQuery();  // Returns the number of rows affected
         }

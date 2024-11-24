@@ -24,7 +24,5 @@
         {
             return $"{Id} {Firstname} {Lastname}";
         }
-
-
     }
 }
