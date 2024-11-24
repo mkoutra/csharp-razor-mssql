@@ -82,7 +82,7 @@ namespace WebStarter6DBApp.DAO
             command.ExecuteNonQuery();  // Returns the number of rows affected
         }
 
-        public Student GetById(int id)
+        public Student? GetById(int id)
         {
             Student? studentToReturn = null;
             string sql = "SELECT * FROM Students Where Id = @id";
