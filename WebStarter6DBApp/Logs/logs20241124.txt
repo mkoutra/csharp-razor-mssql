@@ -911,3 +911,56 @@
 [24-11-2024 23:12:09992 +02:00 Microsoft.AspNetCore.Routing.EndpointMiddleware ] Executed endpoint '"/Students/Index"'
 [24-11-2024 23:12:09993 +02:00 Microsoft.AspNetCore.Hosting.Diagnostics ] Request finished "HTTP/2" "GET" "https"://"localhost:5001""""/Students/getall""" - 200 null "text/html; charset=utf-8" 16.3616ms
 [24-11-2024 23:13:34312 +02:00 Microsoft.Hosting.Lifetime ] Application is shutting down...
+[24-11-2024 23:59:30786 +02:00 Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager ] User profile is available. Using '"C:\Users\michalis\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest.
+[24-11-2024 23:59:31056 +02:00 Microsoft.Hosting.Lifetime ] Now listening on: "https://localhost:5001"
+[24-11-2024 23:59:31135 +02:00 Microsoft.Hosting.Lifetime ] Now listening on: "http://localhost:5000"
+[24-11-2024 23:59:31137 +02:00 Microsoft.Hosting.Lifetime ] Application started. Press Ctrl+C to shut down.
+[24-11-2024 23:59:31144 +02:00 Microsoft.Hosting.Lifetime ] Hosting environment: "Development"
+[24-11-2024 23:59:31317 +02:00 Microsoft.Hosting.Lifetime ] Content root path: "C:\Users\michalis\Desktop\Coding_Factory\CSharp\WebStarter6DBApp\WebStarter6DBApp"
+[24-11-2024 23:59:35853 +02:00 Microsoft.AspNetCore.Hosting.Diagnostics ] Request starting "HTTP/2" "GET" "https"://"localhost:5001""""/""" - null null
+[24-11-2024 23:59:35868 +02:00 Microsoft.AspNetCore.Routing.EndpointMiddleware ] Executing endpoint '"/Index"'
+[24-11-2024 23:59:35889 +02:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker ] Route matched with "{page = \"/Index\"}". Executing page "/Index"
+[24-11-2024 23:59:35896 +02:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker ] Executing handler method "WebStarter6DBApp.Pages.IndexModel.OnGet" - ModelState is Valid
+[24-11-2024 23:59:35897 +02:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker ] Executed handler method "OnGet", returned result "".
+[24-11-2024 23:59:35899 +02:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker ] Executing an implicit handler method - ModelState is Valid
+[24-11-2024 23:59:35900 +02:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker ] Executed an implicit handler method, returned result "Microsoft.AspNetCore.Mvc.RazorPages.PageResult".
+[24-11-2024 23:59:35944 +02:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker ] Executed page "/Index" in 51.3866ms
+[24-11-2024 23:59:35946 +02:00 Microsoft.AspNetCore.Routing.EndpointMiddleware ] Executed endpoint '"/Index"'
+[24-11-2024 23:59:35949 +02:00 Microsoft.AspNetCore.Hosting.Diagnostics ] Request finished "HTTP/2" "GET" "https"://"localhost:5001""""/""" - 200 null "text/html; charset=utf-8" 97.081ms
+[24-11-2024 23:59:35994 +02:00 Microsoft.AspNetCore.Hosting.Diagnostics ] Request starting "HTTP/2" "GET" "https"://"localhost:5001""""/WebStarter6DBApp.styles.css""?v=4foy6LsAk0ErCdYMKRPftMzYv_NLLh9K6-tVUqWsbko" - null null
+[24-11-2024 23:59:36000 +02:00 Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware ] The file "/WebStarter6DBApp.styles.css" was not modified
+[24-11-2024 23:59:36000 +02:00 Microsoft.AspNetCore.Hosting.Diagnostics ] Request finished "HTTP/2" "GET" "https"://"localhost:5001""""/WebStarter6DBApp.styles.css""?v=4foy6LsAk0ErCdYMKRPftMzYv_NLLh9K6-tVUqWsbko" - 304 null "text/css" 6.2281ms
+[24-11-2024 23:59:43046 +02:00 Microsoft.AspNetCore.Hosting.Diagnostics ] Request starting "HTTP/2" "GET" "https"://"localhost:5001""""/Students/Create""" - null null
+[24-11-2024 23:59:43049 +02:00 Microsoft.AspNetCore.Routing.EndpointMiddleware ] Executing endpoint '"/Students/Create"'
+[24-11-2024 23:59:43057 +02:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker ] Route matched with "{page = \"/Students/Create\"}". Executing page "/Students/Create"
+[24-11-2024 23:59:43126 +02:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker ] Executing handler method "WebStarter6DBApp.Pages.Students.CreateModel.OnGet" - ModelState is Valid
+[24-11-2024 23:59:43128 +02:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker ] Executed handler method "OnGet", returned result "".
+[24-11-2024 23:59:43128 +02:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker ] Executing an implicit handler method - ModelState is Valid
+[24-11-2024 23:59:43129 +02:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker ] Executed an implicit handler method, returned result "Microsoft.AspNetCore.Mvc.RazorPages.PageResult".
+[24-11-2024 23:59:43158 +02:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker ] Executed page "/Students/Create" in 100.1998ms
+[24-11-2024 23:59:43160 +02:00 Microsoft.AspNetCore.Routing.EndpointMiddleware ] Executed endpoint '"/Students/Create"'
+[24-11-2024 23:59:43163 +02:00 Microsoft.AspNetCore.Hosting.Diagnostics ] Request finished "HTTP/2" "GET" "https"://"localhost:5001""""/Students/Create""" - 200 null "text/html; charset=utf-8" 116.8534ms
+[24-11-2024 23:59:49234 +02:00 Microsoft.AspNetCore.Hosting.Diagnostics ] Request starting "HTTP/2" "POST" "https"://"localhost:5001""""/Students/Create""" - "application/x-www-form-urlencoded" 249
+[24-11-2024 23:59:49238 +02:00 Microsoft.AspNetCore.Routing.EndpointMiddleware ] Executing endpoint '"/Students/Create"'
+[24-11-2024 23:59:49239 +02:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker ] Route matched with "{page = \"/Students/Create\"}". Executing page "/Students/Create"
+[24-11-2024 23:59:49251 +02:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker ] Executing handler method "WebStarter6DBApp.Pages.Students.CreateModel.OnPost" - ModelState is Valid
+[24-11-2024 23:59:49480 +02:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker ] Executed handler method "OnPost", returned result "".
+[24-11-2024 23:59:49481 +02:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker ] Executing an implicit handler method - ModelState is Valid
+[24-11-2024 23:59:49482 +02:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker ] Executed an implicit handler method, returned result "Microsoft.AspNetCore.Mvc.RazorPages.PageResult".
+[24-11-2024 23:59:49485 +02:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker ] Executed page "/Students/Create" in 244.7532ms
+[24-11-2024 23:59:49486 +02:00 Microsoft.AspNetCore.Routing.EndpointMiddleware ] Executed endpoint '"/Students/Create"'
+[24-11-2024 23:59:49487 +02:00 Microsoft.AspNetCore.Hosting.Diagnostics ] Request finished "HTTP/2" "POST" "https"://"localhost:5001""""/Students/Create""" - 302 null "text/html; charset=utf-8" 252.5965ms
+[24-11-2024 23:59:49491 +02:00 Microsoft.AspNetCore.Hosting.Diagnostics ] Request starting "HTTP/2" "GET" "https"://"localhost:5001""""/Students/getall""" - null null
+[24-11-2024 23:59:49492 +02:00 Microsoft.AspNetCore.Routing.EndpointMiddleware ] Executing endpoint '"/Students/Index"'
+[24-11-2024 23:59:49495 +02:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker ] Route matched with "{page = \"/Students/Index\"}". Executing page "/Students/Index"
+[24-11-2024 23:59:49496 +02:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker ] Executing handler method "WebStarter6DBApp.Pages.Students.IndexModel.OnGet" - ModelState is Valid
+[24-11-2024 23:59:49501 +02:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker ] Executed handler method "OnGet", returned result "Microsoft.AspNetCore.Mvc.RazorPages.PageResult".
+[24-11-2024 23:59:49506 +02:00 Microsoft.AspNetCore.Mvc.RazorPages.Infrastructure.PageActionInvoker ] Executed page "/Students/Index" in 10.8308ms
+[24-11-2024 23:59:49507 +02:00 Microsoft.AspNetCore.Routing.EndpointMiddleware ] Executed endpoint '"/Students/Index"'
+[24-11-2024 23:59:49508 +02:00 Microsoft.AspNetCore.Hosting.Diagnostics ] Request finished "HTTP/2" "GET" "https"://"localhost:5001""""/Students/getall""" - 200 null "text/html; charset=utf-8" 16.5513ms
+[24-11-2024 23:59:49531 +02:00 Microsoft.AspNetCore.Hosting.Diagnostics ] Request starting "HTTP/2" "GET" "https"://"localhost:5001""""/js/student.js""" - null null
+[24-11-2024 23:59:49538 +02:00 Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware ] Sending file. Request path: '"/js/student.js"'. Physical path: '"C:\Users\michalis\Desktop\Coding_Factory\CSharp\WebStarter6DBApp\WebStarter6DBApp\wwwroot\js\student.js"'
+[24-11-2024 23:59:49539 +02:00 Microsoft.AspNetCore.Hosting.Diagnostics ] Request finished "HTTP/2" "GET" "https"://"localhost:5001""""/js/student.js""" - 200 208 "text/javascript" 7.406ms
+[24-11-2024 23:59:51964 +02:00 Microsoft.AspNetCore.Hosting.Diagnostics ] Request starting "HTTP/2" "GET" "https"://"localhost:5001""""/Students/6/Update""" - null null
+[24-11-2024 23:59:51967 +02:00 Microsoft.AspNetCore.Hosting.Diagnostics ] Request finished "HTTP/2" "GET" "https"://"localhost:5001""""/Students/6/Update""" - 404 0 null 2.6598ms
+[24-11-2024 23:59:51969 +02:00 Microsoft.AspNetCore.Hosting.Diagnostics ] Request reached the end of the middleware pipeline without being handled by application code. Request path: "GET" "https"://"localhost:5001""""/Students/6/Update", Response status code: 404

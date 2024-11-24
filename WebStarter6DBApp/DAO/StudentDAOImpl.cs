@@ -56,7 +56,7 @@ namespace WebStarter6DBApp.DAO
         }
         public void Update(Student student)
         {
-            string sql = "UPDATE TABLE Student SET Firstname = @firstname, Lastname = @lastname WHERE Id = @id";
+            string sql = "UPDATE Students SET Firstname = @firstname, Lastname = @lastname WHERE Id = @id";
             
             using SqlConnection connection = DBUtil.GetConnection();
             connection.Open();

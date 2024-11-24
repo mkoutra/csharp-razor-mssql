@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "ridU1MsyJDh4osMyhFBeCaP2ssJHgaaPQiIykrfWCoI=",
+  "Hash": "FRPDW0dp2tlSf00jrsyKWwCuKtZrOhfyiKTQDQCLWL0=",
   "Source": "WebStarter6DBApp",
   "BasePath": "_content/WebStarter6DBApp",
   "Mode": "Default",
@@ -120,6 +120,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\site.js"
+    },
+    {
+      "Identity": "C:\\Users\\michalis\\Desktop\\Coding_Factory\\CSharp\\WebStarter6DBApp\\WebStarter6DBApp\\wwwroot\\js\\student.js",
+      "SourceId": "WebStarter6DBApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\michalis\\Desktop\\Coding_Factory\\CSharp\\WebStarter6DBApp\\WebStarter6DBApp\\wwwroot\\",
+      "BasePath": "_content/WebStarter6DBApp",
+      "RelativePath": "js/student#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "1rraybkla0",
+      "Integrity": "/Zi2xQ/yPY4RECOIYSSwwsUg2hdrxdgZIitOlXR2GnU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\student.js"
     },
     {
       "Identity": "C:\\Users\\michalis\\Desktop\\Coding_Factory\\CSharp\\WebStarter6DBApp\\WebStarter6DBApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
@@ -1563,6 +1584,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo="
+        }
+      ]
+    },
+    {
+      "Route": "js/student.1rraybkla0.js",
+      "AssetFile": "C:\\Users\\michalis\\Desktop\\Coding_Factory\\CSharp\\WebStarter6DBApp\\WebStarter6DBApp\\wwwroot\\js\\student.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "208"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"/Zi2xQ/yPY4RECOIYSSwwsUg2hdrxdgZIitOlXR2GnU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 24 Nov 2024 21:53:14 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "1rraybkla0"
+        },
+        {
+          "Name": "label",
+          "Value": "js/student.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-/Zi2xQ/yPY4RECOIYSSwwsUg2hdrxdgZIitOlXR2GnU="
+        }
+      ]
+    },
+    {
+      "Route": "js/student.js",
+      "AssetFile": "C:\\Users\\michalis\\Desktop\\Coding_Factory\\CSharp\\WebStarter6DBApp\\WebStarter6DBApp\\wwwroot\\js\\student.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "208"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"/Zi2xQ/yPY4RECOIYSSwwsUg2hdrxdgZIitOlXR2GnU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 24 Nov 2024 21:53:14 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-/Zi2xQ/yPY4RECOIYSSwwsUg2hdrxdgZIitOlXR2GnU="
         }
       ]
     },

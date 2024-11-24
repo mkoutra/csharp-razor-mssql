@@ -17,6 +17,10 @@
       "PackagePath": "staticwebassets\\js\\site.js"
     },
     {
+      "Id": "C:\\Users\\michalis\\Desktop\\Coding_Factory\\CSharp\\WebStarter6DBApp\\WebStarter6DBApp\\wwwroot\\js\\student.js",
+      "PackagePath": "staticwebassets\\js\\student.js"
+    },
+    {
       "Id": "C:\\Users\\michalis\\Desktop\\Coding_Factory\\CSharp\\WebStarter6DBApp\\WebStarter6DBApp\\wwwroot\\lib\\bootstrap\\LICENSE",
       "PackagePath": "staticwebassets\\lib\\bootstrap"
     },

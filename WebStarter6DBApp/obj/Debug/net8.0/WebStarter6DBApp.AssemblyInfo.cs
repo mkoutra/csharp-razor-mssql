@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("WebStarter6DBApp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+15c9789030abe85acc590f969183988fb11419bd")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f6baaf23ee2a6e5dc30d06258c11d24780280711")]
 [assembly: System.Reflection.AssemblyProductAttribute("WebStarter6DBApp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("WebStarter6DBApp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
