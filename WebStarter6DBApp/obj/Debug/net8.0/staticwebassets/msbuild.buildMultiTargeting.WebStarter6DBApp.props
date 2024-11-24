@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\WebStarter6DBApp.props" />
+</Project>

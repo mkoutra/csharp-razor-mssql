@@ -12,7 +12,7 @@ namespace WebStarter6DBApp.DAO
             int insertedId = 0;
 
             // alias @firstname are used to avoid sql injection
-            string sql1 = "INSERT INTO STUDENTS (Firstname, Lastname) VALUES (@firstname, @lastname);" +
+            string sql1 = "INSERT INTO Students (Firstname, Lastname) VALUES (@firstname, @lastname); " +
                 "SELECT SCOPE_IDENTITY();";
 
             // With SELECT SCOPE_IDENTITY() we receive the id of the last inserted entity.

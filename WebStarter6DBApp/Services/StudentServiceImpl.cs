@@ -93,7 +93,6 @@ namespace WebStarter6DBApp.Services
         
         public void DeleteStudent(int id)
         {
-            Student student;
             try
             {
                 using TransactionScope scope = new();
